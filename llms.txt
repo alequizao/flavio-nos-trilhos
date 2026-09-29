@@ -1,0 +1,14 @@
+# Flávio nos Trilhos
+
+> Paródia bem-humorada em forma de jogo de corrida infinita (endless runner) 3D grátis, no estilo Subway Surfers, que roda no navegador do celular ou do PC, sem instalar e sem cadastro. Corra com o Flávio pelos trilhos do Brasil, desvie dos trens, pegue moedas e fuja do segurança. Endereço: https://alequizao.com/bolsonaro/
+
+- Aviso: paródia de humor, sem fins políticos, feita só por diversão. Não é afiliado a partido ou governo; não contém propaganda eleitoral.
+- Personagem: caricatura simpática do senador Flávio Bolsonaro (terno azul-marinho, gravata listrada, cabelo escuro penteado de lado), perseguido por um segurança.
+- Visuais da loja: Flávio, Flávio Senador, Flávio Verde-Amarelo (camisa da seleção), Flávio Motociata (jaqueta e capacete) e Flávio Neon.
+- Jogabilidade: 3 trilhos; deslizar para os lados troca de trilho, para cima pula, para baixo rola; toque duplo usa a prancha (aguenta uma batida).
+- Obstáculos: trens parados, trens na contramão (farol aceso), barreiras listradas (pular), placas ABAIXE! (rolar), tapumes de obra (desviar), rampas para correr em cima dos trens.
+- Poderes: ímã de moedas, jetpack, tênis mola, Motociata 2x (pontos em dobro). Loja de visuais, pranchas e melhorias; missões com multiplicador.
+- Visual: cores da bandeira do Brasil (verde, amarelo e azul), cenário de cidade brasileira com trens, prédios e coqueiros.
+- Tecnologia: Three.js (WebGL), áudio sintetizado com WebAudio, PWA com funcionamento offline.
+- Preço: grátis. Idioma: português do Brasil.
+- Desenvolvedor: Alequizao — alequizao.dev@gmail.com — https://github.com/alequizao — https://alequizao.com/
