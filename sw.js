@@ -3,9 +3,9 @@
  * https://github.com/alequizao · © 2026 Alequizao. Todos os direitos reservados.
  */
 // Flávio nos Trilhos — service worker (offline). Suba VERSAO a cada deploy.
-const VERSAO = 'flavio-v1.0.3';
-const ARQUIVOS = ['./', './index.html', './estilo.css?v=1.0.3', './jogo.js?v=1.0.3', './lib/three.module.min.js', './personagens.js?v=1.0.3', './objetos.js?v=1.0.3', './itens.js?v=1.0.3', './icones.js?v=1.0.3', './ranking.js?v=1.0.3', './biomas.js?v=1.0.3', './clima.js?v=1.0.3',
-  './manifest.webmanifest', './icone-192.png?v=1.0.3', './icone-512.png?v=1.0.3', './icone-maskable.png?v=1.0.3', './apple-touch-icon.png?v=1.0.3'];
+const VERSAO = 'flavio-v1.0.4';
+const ARQUIVOS = ['./', './index.html', './estilo.css?v=1.0.4', './jogo.js?v=1.0.4', './lib/three.module.min.js', './personagens.js?v=1.0.4', './objetos.js?v=1.0.4', './itens.js?v=1.0.4', './icones.js?v=1.0.4', './ranking.js?v=1.0.4', './biomas.js?v=1.0.4', './clima.js?v=1.0.4',
+  './manifest.webmanifest', './icone-192.png?v=1.0.4', './icone-512.png?v=1.0.4', './icone-maskable.png?v=1.0.4', './apple-touch-icon.png?v=1.0.4'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSAO).then(c => c.addAll(ARQUIVOS)).then(() => self.skipWaiting()));
 });
